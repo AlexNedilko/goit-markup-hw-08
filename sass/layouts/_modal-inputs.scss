@@ -7,6 +7,7 @@
   letter-spacing: 0.03em;
   color: var(--title-color);
 }
+
 .input-label {
   display: inline-block;
   margin-bottom: 4px;
@@ -15,6 +16,7 @@
   letter-spacing: 0.01em;
   color: var(--text-color);
 }
+
 .input-field {
   position: relative;
   margin-bottom: 10px;
@@ -67,27 +69,35 @@
     color: rgba(117, 117, 117, 0.5);
   }
 }
+
 .check-box {
   position: absolute;
 
-  &:checked ~ .icon-checked {
+  &:checked~.icon-checked {
     opacity: 1;
   }
-  &:checked ~ .icon-unchecked {
+
+  &:checked~.icon-unchecked {
     opacity: 0;
   }
 }
+
 .accept {
   display: inline-block;
   position: relative;
-  margin-left: 15px;
+  margin-left: 0;
+
+  @media screen and (min-width: 1200px) {
+    margin-left: 15px;
+  }
 }
+
 .custom-box {
   display: inline-block;
   width: 16px;
   height: 15px;
-  //   outline: 1px solid red;
 }
+
 .icon-unchecked {
   position: absolute;
   top: 50%;
@@ -95,6 +105,7 @@
   transform: translateY(-50%);
   transition: opacity var(--animation-timing-function);
 }
+
 .icon-checked {
   position: absolute;
   top: 50%;
@@ -107,19 +118,31 @@
 .police-accept {
   display: inline-block;
   padding-left: 23px;
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--text-color);
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
+
 .accept-accent {
-  font-size: 14px;
-  line-height: 1.71;
+  font-size: 12px;
+  line-height: 1.16;
   letter-spacing: 0.03em;
   color: var(--link-selection-solor);
+
+  @media screen and (min-width: 1200px) {
+    font-size: 14px;
+    line-height: 1.71;
+  }
 }
+
 .subscribe-btn.send {
-  margin-top: 30px;
+  margin-top: 31px;
   margin-left: auto;
   margin-right: auto;
 }

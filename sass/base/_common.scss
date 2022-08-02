@@ -1,20 +1,24 @@
 html {
   box-sizing: border-box;
 }
+
 *,
 *::before,
 *::after {
   box-sizing: inherit;
 }
+
 body {
   color: var(--text-color);
   font-family: "Roboto", sans-serif;
 }
+
 .centering {
   display: flex;
   justify-content: center;
   align-items: center;
 }
+
 .visually-hidden {
   position: absolute;
   white-space: nowrap;
@@ -27,14 +31,14 @@ body {
   clip-path: inset(50%);
   margin: -1px;
 }
+
 .section {
-  // margin-left: auto;
-  // margin-right: auto;
   padding-top: 60px;
   padding-bottom: 60px;
 
   outline: 1px solid red;
 }
+
 .container {
   margin-left: auto;
   margin-right: auto;
