@@ -6,6 +6,15 @@
   letter-spacing: 0.03em;
   color: var(--link-selection-solor);
 }
-.logo__accent {
+.logo--black {
   color: #000000;
+}
+
+.logo--white {
+  font-family: "Raleway";
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--header-bgd-color);
 }

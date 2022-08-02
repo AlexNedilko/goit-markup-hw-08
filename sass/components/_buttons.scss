@@ -1,3 +1,14 @@
+// mobile menu button
+.mobile-menu__btn {
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin-left: auto;
+  background-color: transparent;
+  border: 0;
+}
+
 // HERO button
 .section-hero__btn {
   padding: 10px 32px;
@@ -24,17 +35,20 @@
 
 // subscribe button
 .subscribe-btn {
-  margin-left: 12px;
+  margin-left: auto;
+  margin-right: auto;
   min-width: 200px;
-  min-height: 50px;
+  height: 50px;
+
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
   letter-spacing: 0.06em;
+
   color: var(--header-bgd-color);
-  border: none;
   background-color: var(--link-selection-solor);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+  border: none;
   border-radius: 4px;
   transition: background-color var(--animation-timing-function);
 
@@ -43,7 +57,12 @@
     cursor: pointer;
     background-color: #188ce8;
   }
+
+  @media screen and (min-width: 1199px) {
+    margin-left: 12px;
+  }
 }
+
 .subscription-icon {
   margin-left: 10px;
   fill: currentColor;
