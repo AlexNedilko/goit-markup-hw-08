@@ -20,7 +20,7 @@
 <path fill="#2196f3" style="fill: var(--color1, #2196f3)" d="M4 1h24c2.209 0 4 1.791 4 4v22c0 2.209-1.791 4-4 4h-24c-2.209 0-4-1.791-4-4v-22c0-2.209 1.791-4 4-4z"></path>
 <path fill="#fff" style="fill: var(--color2, #fff); stroke: var(--color2, #fff)" stroke="#fff" stroke-linejoin="miter" stroke-linecap="butt" stroke-miterlimit="4" stroke-width="0.4" d="M7.914 16.503l-0.138-0.131-2.067 1.958 7.282 6.947 15.298-14.594-2.053-1.959-13.245 12.623-5.077-4.844z"></path>
 </symbol>
-<symbol id="icon-menu-open" viewBox="0 0 32 32">
+<symbol id="icon-menu-burger" viewBox="0 0 32 32">
 <path d="M6.4 11.734v-2.134h19.2v2.134h-19.2zM6.4 17.066h19.2v-2.133h-19.2v2.133zM6.4 22.4h19.2v-2.134h-19.2v2.134z"></path>
 </symbol>
 <symbol id="icon-menu-close" viewBox="0 0 32 32">
