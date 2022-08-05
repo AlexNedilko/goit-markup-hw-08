@@ -1,11 +1,13 @@
 // mobile menu button
-.mobile-menu__btn {
+.mob-menu__btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
   width: 40px;
   height: 40px;
   padding: 0;
-  margin-left: auto;
   background-color: transparent;
-  border: 0;
+  border: none;
 
   display: flex;
   align-items: center;

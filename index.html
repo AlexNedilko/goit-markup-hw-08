@@ -22,12 +22,49 @@
     <div class="container header-bar">
       <a class="logo header__logo link" href="./index.html" lang="en">Web<span class="logo--black">Studio</span>
       </a>
-      <button class="mobile-menu__btn centering" data-menu-button>
+      <div class="mob-menu" data-menu>
+        <ul class="mob-menu-nav list">
+          <li class="mob-menu-nav__item">
+            <a class="link mob-menu-nav--active" href="">Студія</a>
+          </li>
+          <li class="mob-menu-nav__item">
+            <a class="link" href="./portfolio.html">Портфоліо</a>
+          </li>
+          <li class="mob-menu-nav__item">
+            <a class="link" href="">Контакти</a>
+          </li>
+        </ul>
+        <ul class="mob-menu-contacts list">
+          <li class="mob-menu-contacts__item">
+            <a class="link mob-menu-contacts__tel" href="tel:+380961111111">+38 096 111 11 11</a>
+          </li>
+          <li class="mob-menu-contacts__item">
+            <a class="mob-menu-contacts__mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+          </li>
+        </ul>
+        <ul class="mob-menu-socials list">
+          <li class="mob-menu-socials__item">
+            <a class="mob-menu-socials__link link" href="">Instagram
+            </a>
+          </li>
+          <li class="mob-menu-socials__item">
+            <a class="mob-menu-socials__link link" href="">Twitter</a>
+          </li>
+          <li class="mob-menu-socials__item">
+            <a class="mob-menu-socials__link link" href="">Facebook</a>
+          </li>
+          <li class="mob-menu-socials__item">
+            <a class="mob-menu-socials__link link" href="">LinkedIn</a>
+          </li>
+        </ul>
+      </div>
+      <button class="mob-menu__btn centering" data-menu-button>
         <svg class="menu__icon" width="40" height="40">
           <use class="menu-icon__burger" href="./images/icons.svg#icon-menu-burger"></use>
           <use class="menu-icon__close" href="./images/icons.svg#icon-menu-close"></use>
         </svg>
       </button>
+
       <nav class="nav-bar hidden">
         <ul class="nav-bar__list list">
           <li class="nav-bar__item">
@@ -517,47 +554,7 @@
     </div>
   </div>
 
-  <div class="mob-menu" data-menu>
-    <!-- <button>
-      <svg class="" width="40" height="40" data-menu-button>
-        <use href="./images/icons.svg#icon-menu-close"></use>
-      </svg>
-    </button> -->
-    <ul class="mob-menu-nav list">
-      <li class="mob-menu-nav__item">
-        <a class="link mob-menu-nav--active" href="">Студія</a>
-      </li>
-      <li class="mob-menu-nav__item">
-        <a class="link" href="./portfolio.html">Портфоліо</a>
-      </li>
-      <li class="mob-menu-nav__item">
-        <a class="link" href="">Контакти</a>
-      </li>
-    </ul>
-    <ul class="mob-menu-contacts list">
-      <li class="mob-menu-contacts__item">
-        <a class="link mob-menu-contacts__tel" href="tel:+380961111111">+38 096 111 11 11</a>
-      </li>
-      <li class="mob-menu-contacts__item">
-        <a class="mob-menu-contacts__mail link" href="mailto:info@devstudio.com">info@devstudio.com</a>
-      </li>
-    </ul>
-    <ul class="mob-menu-socials list">
-      <li class="mob-menu-socials__item">
-        <a class="mob-menu-socials__link link" href="">Instagram
-        </a>
-      </li>
-      <li class="mob-menu-socials__item">
-        <a class="mob-menu-socials__link link" href="">Twitter</a>
-      </li>
-      <li class="mob-menu-socials__item">
-        <a class="mob-menu-socials__link link" href="">Facebook</a>
-      </li>
-      <li class="mob-menu-socials__item">
-        <a class="mob-menu-socials__link link" href="">LinkedIn</a>
-      </li>
-    </ul>
-  </div>
+
   <script src="./js/modal.js"></script>
   <script src="./js/menu.js"></script>
 </body>
