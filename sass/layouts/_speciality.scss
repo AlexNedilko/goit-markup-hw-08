@@ -9,7 +9,7 @@
 }
 
 .speciality__item {
-  width: 450px;
+  width: 100%;
   padding-left: auto;
   padding-right: auto;
 
@@ -47,6 +47,10 @@
   letter-spacing: 0.03em;
   text-transform: uppercase;
   color: var(--title-color);
+
+  @media screen and (min-width: 768px) {
+    text-align: left;
+  }
 }
 
 .speciality__text {

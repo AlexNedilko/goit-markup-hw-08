@@ -9,7 +9,7 @@
 }
 
 .projects-list__item {
-  width: 450px;
+  max-width: 450px;
 
   &:not(:last-child) {
     @media screen and (max-width: 767px) {
