@@ -78,6 +78,7 @@
 .mob-menu-socials {
   display: flex;
   align-items: baseline;
+
   font-weight: 500;
   font-size: 18px;
   line-height: 1.22px;
@@ -100,4 +101,7 @@
   padding-left: 10px;
   padding-right: 10px;
 
+  &.first {
+    padding-left: 0;
+  }
 }

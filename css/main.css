@@ -656,6 +656,9 @@ body {
   padding-left: 10px;
   padding-right: 10px;
 }
+.mob-menu-socials__link.first {
+  padding-left: 0;
+}
 
 .section-hero {
   padding: 118px 0px;
